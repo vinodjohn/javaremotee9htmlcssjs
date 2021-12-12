@@ -1,0 +1,45 @@
+@font-face {
+
+}
+
+h6:hover {
+  font-family: "Monotype Corsiva";
+  font-size: xx-large;
+}
+
+ol:first-child{
+  color:red;
+}
+a:link{
+  color: green;
+  font-family: "Bell MT";
+}
+
+a:visited {
+  color: crimson;
+  font-family: "Bauhaus 93";
+}
+
+#firstImg {
+  transform: rotate(90deg);
+  border-radius: 20px;
+  opacity: 75%;
+}
+
+/*Mobile phones*/
+@media screen and (max-width: 480px) {
+  #firstImg {
+    transform: rotate(180deg);
+    border-radius: 3px;
+    opacity: 40%;
+  }
+}
+
+/*Tablets*/
+@media screen and (max-width: 780px) and (min-width: 700px){
+  #firstImg {
+    transform: rotate(45deg);
+    opacity: 90%;
+  }
+
+}

@@ -1,0 +1,50 @@
+/*tag selector*/
+label {
+  color: red;
+}
+/*Id selector*/
+#email {
+  background: darkorange;
+}
+/*Class selector*/
+.space-above {
+  margin-top: 10px;
+  border:solid;
+  border-radius: 20px;
+  padding: 10px 10px 10px 5px; /*Top, right, bottom, left*/
+  display: block;
+}
+/*descendent selector*/
+#mainForm div{
+  margin-left: 25%;
+}
+/*child selector*/
+#mainContainer>form{
+  color: rgb(255, 177, 0);
+}
+/*Next element selector*/
+#emptyDiv+h1{
+  color: #540C5B;
+  margin-left: 25%;
+  font-family: "Monotype Corsiva";
+  text-decoration: underline;
+  text-align:right;
+}
+/*Combined selector*/
+input,select, #emptyDiv {
+  margin-left: 50%;
+  box-shadow: hotpink;
+}
+/*attribute selector*/
+[value=rice]{
+  background: aqua;
+}
+
+/*positions*/
+#instructions {
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}
